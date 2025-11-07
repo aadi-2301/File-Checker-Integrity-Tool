@@ -1,2 +1,20 @@
 # File-Checker-Integrity-Tool
-Compares hash values and check integrity of file
+
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: AADITYA JAISWAL
+
+*INTERN ID*: CT04DR1407
+
+*DOMAIN*: CYBER SECURITY AND ETHICAL HACKING
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTOSH
+
+
+
+
+
+
+
