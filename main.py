@@ -10,10 +10,10 @@ init(autoreset=True)
 # Define a function to calculate SHA-256 hash of a file
 
 def calculate_hash(file_path):
-    sha256_hash = hashlib.sha256()
-    with open(file_path, "rb") as file:
-        while (data := file.read(65536)):
-            sha256_hash.update(data)
+    sha256_hash = hashlib.sha256()                 # Create a SHA-256 hash object.
+    with open(file_path, "rb") as file:            # Open the file in binary mode for reading
+        while (data := file.read(65536)):          # Read the file in 64KB chunks to efficiently handle large files.
+            sha256_hash.update(data)               # Update the hash object with the data read from the file.
         return sha256_hash.hexdigest()
         
 # Function to verify hash of a downloaded file
